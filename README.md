@@ -10,25 +10,18 @@
 
 ## Some of the most popular Docker commands:
 
-docker run - run a container from a Docker image.
+docker run - run a container from a Docker image.\
+docker build - build a Docker image from a Dockerfile.\
+docker pull - download a Docker image from a registry.\
+docker push - upload a Docker image to a registry.\
+docker ps - list running Docker containers.\
+docker stop - stop a running Docker container.\
+docker rm - remove a stopped Docker container.\
+docker rmi - remove a Docker image.\
+docker exec - execute a command inside a running Docker container.\
+docker logs - view the logs of a running Docker container.\
 
-docker build - build a Docker image from a Dockerfile.
-
-docker pull - download a Docker image from a registry.
-
-docker push - upload a Docker image to a registry.
-
-docker ps - list running Docker containers.
-
-docker stop - stop a running Docker container.
-
-docker rm - remove a stopped Docker container.
-
-docker rmi - remove a Docker image.
-
-docker exec - execute a command inside a running Docker container.
-
-docker logs - view the logs of a running Docker container.
+##
 
 - **docker run**:
   The docker run command is used to run a Docker container from a Docker image. You can specify the image name and any additional options you want to use with the container. For example, to run a container from the official Nginx image in detached mode (-d) and map the container port 80 to the host port 80 (-p 80:80), you can use the following command:
