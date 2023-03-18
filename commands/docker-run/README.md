@@ -7,3 +7,8 @@ For example, to run a container from the official Nginx image in detached mode (
 ```cmd
 docker run -d -p 80:80 nginx
 ```
+
+Another example:
+```cmd
+docker run -it -p 8080:80 nginx
+```
