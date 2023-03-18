@@ -15,5 +15,5 @@ docker run -it -p 8080:80 nginx
 
 Naming container: 
 ```cmd
-docker run -it -p 8080:80 --name mynginx nginx
+docker run -d -p 8080:80 --name mynginx nginx
 ```
