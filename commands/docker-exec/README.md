@@ -7,3 +7,8 @@ For example, to execute the ls command inside a container with ID CONTAINER_ID, 
 ```cmd
 docker exec CONTAINER_ID ls
 ```
+
+Another example:
+```cmd
+docker exec -it CONTAINER_ID bash
+```
