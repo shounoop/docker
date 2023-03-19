@@ -75,4 +75,4 @@ Here's an example of how to create a Docker image for a Node.js application usin
 
    This command runs the Docker container and maps port 3000 in the Docker container to port 3000 on the host machine. The container will start running the command specified in the CMD instruction in the Dockerfile (in this case, npm start).
 
-**--> Congratulations! You have now created a Docker image for your Node.js application and run it in a Docker container.**
+--> **Congratulations! You have now created a Docker image for your Node.js application and run it in a Docker container.**
