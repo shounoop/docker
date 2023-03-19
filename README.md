@@ -8,7 +8,7 @@
 
 > In summary, Docker is a powerful tool that simplifies the process of packing and deploying your application across different evironments, as well as increasing the mobility and reliablity of your application.
 
-#### II. Table of content about Dockerfile
+#### II. Table of content about Docker
 
 | Topic                                                                 | Description                                                                                                                                                                             |
 | :-------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
@@ -23,13 +23,3 @@
 | [Dockerfile](https://github.com/shounoop/docker/tree/main/dockerfile) | A Dockerfile is a script that contains instructions for building a Docker image.                                                                                                        |
 | Docker Swarm                                                          | Docker Swarm is a tool used to orchestrate and manage a cluster of Docker nodes (how to use Docker Swarm to manage a cluster of Docker nodes)                                           |
 | Docker Registry                                                       | Docker Registry is a storage and distribution system for Docker images (how to use Docker Registry to store and distribute Docker images)                                               |
-
-## III. [Dockerfile](https://github.com/shounoop/docker/tree/main/dockerfile)
-
-- Dockerfile is a simple text file that contains instructions to build a Docker image. It provides a way to create custom Docker images to run your applications in independent containers.
-
-- A Dockerfile can be divided into several parts, each part performing a specific task during the build process of the Docker image. The instructions in the Dockerfile specify the base image, dependencies, configurations, and commands to run when the container is started.
-
-- Dockerfile simplifies the process of building and deploying applications in Docker containers. By creating a Dockerfile, you can automate the process of building and deploying your application, which saves time and eliminates errors that may occur during manual deployment.
-
-- Overall, Dockerfile is an essential tool for creating and managing Docker containers, and it's essential to learn how to use it effectively when working with Docker.
