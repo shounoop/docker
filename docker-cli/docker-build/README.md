@@ -18,6 +18,7 @@ Here's a breakdown of the different components of this command:
 
 When you run the _docker build_ command, Docker will read the Dockerfile in the build context and execute the instructions in the order they are listed in the Dockerfile. Each instruction creates a new layer in the Docker image.
 
+#### Examples
 Here's an example of how to build a Docker image using the _docker build_ command:
 
 ```cmd
