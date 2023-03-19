@@ -15,6 +15,7 @@ As mentioned earlier, a Dockerfile contains a set of instructions that are execu
   This will use the Node.js 14 Alpine image as the base image for your new image.
 
 - _WORKDIR_
+
   The WORKDIR instruction sets the working directory for subsequent instructions. For example, to set the working directory to /app, you can add the following line to your Dockerfile:
 
   ```Dockerfile
@@ -22,6 +23,7 @@ As mentioned earlier, a Dockerfile contains a set of instructions that are execu
   ```
 
 - _COPY_
+
   The COPY instruction copies files from the host machine to the Docker image. For example, to copy package.json and package-lock.json from the current directory to the /app directory in the Docker image, you can add the following line to your Dockerfile:
 
   ```Dockerfile
@@ -29,6 +31,7 @@ As mentioned earlier, a Dockerfile contains a set of instructions that are execu
   ```
 
 - _RUN_
+
   The RUN instruction runs a command in the Docker image. For example, to install dependencies using npm, you can add the following line to your Dockerfile:
 
   ```Dockerfile
@@ -36,6 +39,7 @@ As mentioned earlier, a Dockerfile contains a set of instructions that are execu
   ```
 
 - _EXPOSE_
+
   The EXPOSE instruction exposes a port for the Docker container. For example, to expose port 3000, you can add the following line to your Dockerfile:
 
   ```Dockerfile
@@ -43,6 +47,7 @@ As mentioned earlier, a Dockerfile contains a set of instructions that are execu
   ```
 
 - CMD
+
   The CMD instruction specifies the command to run when the Docker container starts. For example, to start a Node.js application, you can add the following line to your Dockerfile:
 
   ```Dockerfile
@@ -75,4 +80,4 @@ Here's an example of how to create a Docker image for a Node.js application usin
 
    This command runs the Docker container and maps port 3000 in the Docker container to port 3000 on the host machine. The container will start running the command specified in the CMD instruction in the Dockerfile (in this case, npm start).
 
---> **Congratulations! You have now created a Docker image for your Node.js application and run it in a Docker container.**
+**Congratulations! You have now created a Docker image for your Node.js application and run it in a Docker container.**
