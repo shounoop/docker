@@ -5,5 +5,11 @@ The docker logs command is used to view the logs of a Docker container. You need
 For example, to view the logs of a container with ID CONTAINER_ID, you can use the following command:
 
 ```cmd
-docker logs CONTAINER_ID
+docker logs CONTAINER_ID/CONTAINER_NAME
+```
+
+```cmd
+docker logs CONTAINER_ID/CONTAINER_NAME -f
+
+(-f <=> following)
 ```
