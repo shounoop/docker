@@ -17,7 +17,7 @@
 | Command   |      Explanation      |
 |----------|:-------------:|
 | docker container run [image] (docker run [image]) | Creates and starts a container from an image.|
-| docker run --name [image] [container-name] | Starts a container with a custom name.|
+| docker run --name [container-name] [image] | Starts a container with a custom name.|
 | docker run -d [image] | Starts a container in detached mode (runs in the background).|
 | docker run -it [image] | Starts a container in interactive mode with a terminal attached.|
 | docker stop [container-id] | Stops a running container.|
