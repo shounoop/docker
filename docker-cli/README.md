@@ -30,10 +30,12 @@
 - docker logs [image] follows logs for a running container by default, but docker logs [container-id] is more precise.
 
 ## Example:
-- docker run -p 8080:80 -v ${pwd}:/usr/share/nginx/html nginx (Runs an Nginx server container, mounts current directory to container's web root (/usr/share/nginx/html), and maps host port 8080 to container port 80)
-- docker run -p 8080:80 -v ${pwd}:/app python python3 app/hello.py (Runs a Python container, mounts current directory to container's /app directory, maps host port 8080 to container port 80, and executes the Python script "app/hello.py")
-- docker run --name mysql -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my_password mysql:8 (Runs a MySQL container in detached mode (background), sets the root password to "my_password", maps host port 3306 to container port 3306 (standard MySQL port), and names the container "mysql")
-- docker run --name mysql -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my_password -v mysql:/var/lib/mysql mysql:8 (Similar to the previous command, but this one uses a named volume "mysql" to persist data in the container's /var/lib/mysql directory. This allows data to survive container restarts)
+| Command   |      Explanation      |
+|----------|:-------------:|
+| docker run -p 8080:80 -v ${pwd}:/usr/share/nginx/html nginx |  Runs an Nginx server container, mounts current directory to container's web root (/usr/share/nginx/html), and maps host port 8080 to container port 80 |
+| docker run -p 8080:80 -v ${pwd}:/app python python3 app/hello.py |    Runs a Python container, mounts current directory to container's /app directory, maps host port 8080 to container port 80, and executes the Python script "app/hello.py"   |
+| docker run --name mysql -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my_password mysql:8 | Runs a MySQL container in detached mode (background), sets the root password to "my_password", maps host port 3306 to container port 3306 (standard MySQL port), and names the container "mysql" |
+| docker run --name mysql -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my_password -v mysql:/var/lib/mysql mysql:8 | Similar to the previous command, but this one uses a named volume "mysql" to persist data in the container's /var/lib/mysql directory. This allows data to survive container restarts |
 
 Docker CLI (Command Line Interface) is a tool that allows you to interact with the Docker daemon and manage Docker containers, images, networks, and volumes using commands in a terminal or command prompt.
 
