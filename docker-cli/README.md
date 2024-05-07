@@ -1,4 +1,5 @@
 # Docker CLI
+> Docker CLI (Command Line Interface) is a tool that allows you to interact with the Docker daemon and manage Docker containers, images, networks, and volumes using commands in a terminal or command prompt.
 
 ## I. Most popular Docker CLI commands:
 ### 1. Listing Information:
@@ -44,7 +45,6 @@
 | docker run --name mysql -d -p 3306:3306 -e MYSQL_ROOT_PASSWORD=my_password -v mysql:/var/lib/mysql mysql:8 | Similar to the previous command, but this one uses a named volume "mysql" to persist data in the container's /var/lib/mysql directory. This allows data to survive container restarts |
 
 ----
-> Docker CLI (Command Line Interface) is a tool that allows you to interact with the Docker daemon and manage Docker containers, images, networks, and volumes using commands in a terminal or command prompt.
 
 ## II. Here are some of the most common Docker CLI commands:
 - **[docker run](https://github.com/shounoop/docker/tree/main/docker-cli/docker-run)** - run a container from a Docker image.
