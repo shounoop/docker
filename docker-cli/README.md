@@ -12,6 +12,7 @@
 | docker inspect [image/container-id] | Inspects the details of an image or a running container.|
 | docker stats [container-id] | Shows real-time resource usage statistics for a running container.|
 | docker scout quickview [image] | Provides a quick analysis of an image's content (experimental feature).|
+| docker volume ls | |
 
 ### 2. Managing Containers:
 | Command   |      Explanation      |
